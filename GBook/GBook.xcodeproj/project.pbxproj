@@ -12,6 +12,7 @@
 		D61BC44E1EE2A30300B2DB70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61BC44C1EE2A30300B2DB70 /* Main.storyboard */; };
 		D61BC4501EE2A30300B2DB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61BC44F1EE2A30300B2DB70 /* Assets.xcassets */; };
 		D61BC4531EE2A30300B2DB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61BC4511EE2A30300B2DB70 /* LaunchScreen.storyboard */; };
+		D61BC45D1EE2A48D00B2DB70 /* 华康少女字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D61BC45C1EE2A47D00B2DB70 /* 华康少女字体.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D61BC44F1EE2A30300B2DB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D61BC4521EE2A30300B2DB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D61BC4541EE2A30300B2DB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61BC45C1EE2A47D00B2DB70 /* 华康少女字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康少女字体.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		D61BC43C1EE2A30300B2DB70 = {
 			isa = PBXGroup;
 			children = (
+				D61BC45A1EE2A42500B2DB70 /* Resource */,
 				D61BC4471EE2A30300B2DB70 /* GBook */,
 				D61BC4461EE2A30300B2DB70 /* Products */,
 			);
@@ -62,6 +65,22 @@
 				D61BC4541EE2A30300B2DB70 /* Info.plist */,
 			);
 			path = GBook;
+			sourceTree = "<group>";
+		};
+		D61BC45A1EE2A42500B2DB70 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D61BC45B1EE2A45B00B2DB70 /* Font */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D61BC45B1EE2A45B00B2DB70 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D61BC45C1EE2A47D00B2DB70 /* 华康少女字体.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61BC45D1EE2A48D00B2DB70 /* 华康少女字体.ttf in Resources */,
 				D61BC4531EE2A30300B2DB70 /* LaunchScreen.storyboard in Resources */,
 				D61BC4501EE2A30300B2DB70 /* Assets.xcassets in Resources */,
 				D61BC44E1EE2A30300B2DB70 /* Main.storyboard in Resources */,
@@ -297,6 +317,7 @@
 				D61BC4591EE2A30300B2DB70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
