@@ -58,10 +58,7 @@ class MENewCommentViewController: MEBaseViewController {
         view.addSubview(self.tableView)
     }
    
-    @objc func leftButtonClick() {
-    
-        dismiss(animated: true, completion: nil)
-    }
+ 
     
     
     @objc func rightButtonClick() {
@@ -103,6 +100,7 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
         case 2:
             if self.showScore {
                 cell.contentView.addSubview(self.score)
+                cell.accessoryType = .none
             }
             break
             
@@ -118,20 +116,25 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        switch indexPath.row {
-        case 0:
+        let cell = tableView.cellForRow(at: indexPath)
+        guard let cellText = cell?.textLabel?.text else { return }
+        switch cellText {
+        case "标题":
             
             setCommentTitle()
             
             break
-        case 1:
+        case "评分":
             
             setScore()
             break
-        case 2:
+        case "分类":
             
+            setSegment()
             break
-        case 3:
+        case "书评":
+            
+            addBookComment()
             break
         default:
             break
@@ -179,6 +182,21 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     
+    //MARK: 选择分类
+    private func setSegment() {
+    
+        let segmentVC = MESetSegmentViewController()
+        MEGeneralFactory.setupNormalFunctionalButton(segmentVC)
+        present(segmentVC, animated: true, completion: nil)
+    }
+    
+    
+    private func addBookComment() {
+    
+        let addBookCommentVC = MEAddBookCommentViewController()
+        MEGeneralFactory.setupNormalFunctionalButton(addBookCommentVC)
+        present(addBookCommentVC, animated: true, completion: nil)
+    }
 }
 
 

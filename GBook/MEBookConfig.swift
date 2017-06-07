@@ -15,3 +15,9 @@ let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
 let Main_Color = UIColor(red: 199/255.0, green: 75/255.0, blue: 123/255.0, alpha: 1)
 
 let My_Font_Name = "UniSun"
+
+
+func RGB(r: CGFloat,g: CGFloat,b: CGFloat) -> UIColor {
+    
+    return UIColor(red: r/255.0, green: g/255.0, blue: b/255.0, alpha: 1)
+}

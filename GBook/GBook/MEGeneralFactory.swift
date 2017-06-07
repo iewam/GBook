@@ -23,6 +23,7 @@ class MEGeneralFactory: NSObject {
         leftBtn.contentHorizontalAlignment = .left
         leftBtn.titleLabel?.font = UIFont(name: My_Font_Name, size: 14)
         leftBtn.addTarget(forTarget, action: Selector(("leftButtonClick")), for: .touchUpInside)
+        leftBtn.tag = 111
         forTarget.view.addSubview(leftBtn)
         
         let rightBtn = UIButton(frame: CGRect(x: SCREEN_WIDTH - 50, y: ME_FunctionalButton_Top_Margin, width: ME_FunctionalButton_Width, height: ME_FunctionalButton_Height))
@@ -31,6 +32,7 @@ class MEGeneralFactory: NSObject {
         rightBtn.contentHorizontalAlignment = .left
         rightBtn.titleLabel?.font = UIFont(name: My_Font_Name, size: 14)
         rightBtn.addTarget(forTarget, action: Selector(("rightButtonClick")), for: .touchUpInside)
+        rightBtn.tag = 112
         forTarget.view.addSubview(rightBtn)
     }
 

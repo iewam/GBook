@@ -33,10 +33,6 @@ class MENewCommentSetTitleViewController: MEBaseViewController {
 
     
     
-    @objc func leftButtonClick() {
-    
-        dismiss(animated: true, completion: nil)
-    }
     
     @objc func rightButtonClick() {
     
