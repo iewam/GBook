@@ -1,0 +1,15 @@
+PODS:
+  - JVFloatLabeledTextField (1.1.1)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - JVFloatLabeledTextField
+  - SnapKit
+
+SPEC CHECKSUMS:
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 9acf6105d23bea29024897d8f01310bf9caf75c9
+
+COCOAPODS: 1.2.0
