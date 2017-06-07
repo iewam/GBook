@@ -15,7 +15,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let rankNVC = UINavigationController(rootViewController: MERankViewController())
+        let searchNVC = UINavigationController(rootViewController: MESearchViewController())
+        let pushNVC = UINavigationController(rootViewController: MEPushViewController())
+        let circleNVC = UINavigationController(rootViewController: MECircleViewController())
+        let moreNVC = UINavigationController(rootViewController: MEMoreViewController())
+        
+        let tabBarC = UITabBarController()
+        tabBarC.viewControllers = [rankNVC, searchNVC, pushNVC, circleNVC, moreNVC]
+        
+        rankNVC.tabBarItem = UITabBarItem(title: "排行榜", image: UIImage(named: "bio"), selectedImage: UIImage(named: "bio_red"))
+        searchNVC.tabBarItem = UITabBarItem(title: "发现", image: UIImage(named: "timer 2"), selectedImage: UIImage(named: "timer 2_red"))
+        pushNVC.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "pencil"), selectedImage: UIImage(named: "pencil_red"))
+        circleNVC.tabBarItem = UITabBarItem(title: "圈子", image: UIImage(named: "users two-2"), selectedImage: UIImage(named: "users two-2_red"))
+        moreNVC.tabBarItem = UITabBarItem(title: "更多", image: UIImage(named: "more"), selectedImage: UIImage(named: "more_red"))
+        
+        window?.rootViewController = tabBarC
+        window?.makeKeyAndVisible()
+        
+        tabBarC.tabBar.tintColor = Main_Color
+        
         return true
     }
 
