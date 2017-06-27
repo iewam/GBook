@@ -35,6 +35,9 @@ class MENewCommentViewController: MEBaseViewController {
     
     var showScore = false
     
+    var segmentDetailText : String?
+    var bookCommentText : String?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,22 +89,35 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
         cell.textLabel?.text = titleArr?[indexPath.row]
         cell.textLabel?.font = UIFont(name: My_Font_Name, size: 15)
         cell.detailTextLabel?.font = UIFont(name: My_Font_Name, size: 13)
-        
+    
         if indexPath.row != 1 {
         
             cell.accessoryType = .disclosureIndicator
         }
-        
-        switch indexPath.row {
-        case 0:
+        guard let cellText = cell.textLabel?.text else {return cell}
+        switch cellText {
+        case "标题":
             cell.detailTextLabel?.text = commentTitle
             break
             
-        case 2:
+        case "":
             if self.showScore {
                 cell.contentView.addSubview(self.score)
                 cell.accessoryType = .none
             }
+            break
+            
+        case "分类":
+            cell.detailTextLabel?.text = self.segmentDetailText
+            break
+            
+        case " ":
+            cell.accessoryType = .none
+            let commentView = UITextView(frame: CGRect(x: 4, y: 4, width: SCREEN_WIDTH - 8, height: 80))
+            commentView.text = self.bookCommentText
+            commentView.font = UIFont(name: My_Font_Name, size: 15)
+            commentView.isEditable = false
+            cell.contentView.addSubview(commentView)
             break
             
         default:
@@ -113,6 +129,15 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
         return cell
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+      
+        if showScore && indexPath.row >= 5 {
+            return 88
+        } else if !showScore && indexPath.row >= 4 {
+            return 88
+        }
+        return 44
+    }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -122,7 +147,6 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
         case "标题":
             
             setCommentTitle()
-            
             break
         case "评分":
             
@@ -187,14 +211,32 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
     
         let segmentVC = MESetSegmentViewController()
         MEGeneralFactory.setupNormalFunctionalButton(segmentVC)
+        segmentVC.segmentCallback = {(segmentText) in
+        
+            self.segmentDetailText = segmentText
+            self.tableView.reloadData()
+        }
         present(segmentVC, animated: true, completion: nil)
     }
     
-    
+    //MARK: 添加书评
     private func addBookComment() {
     
         let addBookCommentVC = MEAddBookCommentViewController()
         MEGeneralFactory.setupNormalFunctionalButton(addBookCommentVC)
+        addBookCommentVC.textView.text = self.bookCommentText
+        addBookCommentVC.bookCommentCallback = {(bookCommet) in
+            self.bookCommentText = bookCommet
+            if self.titleArr?.last == " " {
+                self.titleArr?.removeLast()
+            }
+            
+            if self.bookCommentText != "" {
+                
+                self.titleArr?.append(" ")
+            }
+            self.tableView.reloadData()
+        }
         present(addBookCommentVC, animated: true, completion: nil)
     }
 }

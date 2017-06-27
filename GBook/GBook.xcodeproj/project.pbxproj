@@ -12,6 +12,7 @@
 		D61BC4501EE2A30300B2DB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61BC44F1EE2A30300B2DB70 /* Assets.xcassets */; };
 		D61BC4531EE2A30300B2DB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61BC4511EE2A30300B2DB70 /* LaunchScreen.storyboard */; };
 		D61BC45D1EE2A48D00B2DB70 /* 华康少女字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D61BC45C1EE2A47D00B2DB70 /* 华康少女字体.ttf */; };
+		D623B4491F02B6360065DC84 /* MEKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D623B4481F02B6360065DC84 /* MEKeyboardManager.m */; };
 		D688DA551EE67CB800EFB9DB /* MERankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA541EE67CB800EFB9DB /* MERankViewController.swift */; };
 		D688DA571EE67CC600EFB9DB /* MESearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA561EE67CC600EFB9DB /* MESearchViewController.swift */; };
 		D688DA591EE67CD100EFB9DB /* MEPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA581EE67CD100EFB9DB /* MEPushViewController.swift */; };
@@ -61,6 +62,8 @@
 		D6E65F4E1EE8504D00D94FCC /* social-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E65F3D1EE8504D00D94FCC /* social-icon@2x.png */; };
 		D6E65F4F1EE8504D00D94FCC /* star-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E65F3E1EE8504D00D94FCC /* star-icon.png */; };
 		D6E65F501EE8504D00D94FCC /* star-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E65F3F1EE8504D00D94FCC /* star-icon@2x.png */; };
+		D6E65F561EE85BD500D94FCC /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E65F531EE85BD500D94FCC /* IGLDropDownItem.m */; };
+		D6E65F571EE85BD500D94FCC /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E65F551EE85BD500D94FCC /* IGLDropDownMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +76,8 @@
 		D61BC4521EE2A30300B2DB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D61BC4541EE2A30300B2DB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D61BC45C1EE2A47D00B2DB70 /* 华康少女字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康少女字体.ttf"; sourceTree = "<group>"; };
+		D623B4471F02B6360065DC84 /* MEKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKeyboardManager.h; sourceTree = "<group>"; };
+		D623B4481F02B6360065DC84 /* MEKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKeyboardManager.m; sourceTree = "<group>"; };
 		D688DA541EE67CB800EFB9DB /* MERankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MERankViewController.swift; sourceTree = "<group>"; };
 		D688DA561EE67CC600EFB9DB /* MESearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MESearchViewController.swift; sourceTree = "<group>"; };
 		D688DA581EE67CD100EFB9DB /* MEPushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEPushViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +131,10 @@
 		D6E65F3D1EE8504D00D94FCC /* social-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "social-icon@2x.png"; sourceTree = "<group>"; };
 		D6E65F3E1EE8504D00D94FCC /* star-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-icon.png"; sourceTree = "<group>"; };
 		D6E65F3F1EE8504D00D94FCC /* star-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-icon@2x.png"; sourceTree = "<group>"; };
+		D6E65F521EE85BD500D94FCC /* IGLDropDownItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownItem.h; sourceTree = "<group>"; };
+		D6E65F531EE85BD500D94FCC /* IGLDropDownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownItem.m; sourceTree = "<group>"; };
+		D6E65F541EE85BD500D94FCC /* IGLDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownMenu.h; sourceTree = "<group>"; };
+		D6E65F551EE85BD500D94FCC /* IGLDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +227,15 @@
 				D61BC45C1EE2A47D00B2DB70 /* 华康少女字体.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		D623B4461F02B6360065DC84 /* MEKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				D623B4471F02B6360065DC84 /* MEKeyboardManager.h */,
+				D623B4481F02B6360065DC84 /* MEKeyboardManager.m */,
+			);
+			path = MEKeyboardManager;
 			sourceTree = "<group>";
 		};
 		D688DA4F1EE67C6C00EFB9DB /* Rank */ = {
@@ -349,6 +367,8 @@
 		D688DA9A1EE7F63900EFB9DB /* ThirdKit */ = {
 			isa = PBXGroup;
 			children = (
+				D623B4461F02B6360065DC84 /* MEKeyboardManager */,
+				D6E65F511EE85BD500D94FCC /* IGLDropDownMenu */,
 				D6E65F2C1EE8504D00D94FCC /* AKSegmentedControl */,
 				D688DA9B1EE7F64B00EFB9DB /* LDXScore */,
 			);
@@ -397,6 +417,17 @@
 				D6E65F3F1EE8504D00D94FCC /* star-icon@2x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		D6E65F511EE85BD500D94FCC /* IGLDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D6E65F521EE85BD500D94FCC /* IGLDropDownItem.h */,
+				D6E65F531EE85BD500D94FCC /* IGLDropDownItem.m */,
+				D6E65F541EE85BD500D94FCC /* IGLDropDownMenu.h */,
+				D6E65F551EE85BD500D94FCC /* IGLDropDownMenu.m */,
+			);
+			path = IGLDropDownMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -550,10 +581,13 @@
 				D6E65F291EE8495F00D94FCC /* MESetSegmentViewController.swift in Sources */,
 				D688DA931EE7912600EFB9DB /* UIImage+Extension.m in Sources */,
 				D6E65F2B1EE849DC00D94FCC /* MEAddBookCommentViewController.swift in Sources */,
+				D623B4491F02B6360065DC84 /* MEKeyboardManager.m in Sources */,
 				D688DA8D1EE68EF400EFB9DB /* MEGeneralFactory.swift in Sources */,
 				D688DA5B1EE67CD800EFB9DB /* MECircleViewController.swift in Sources */,
 				D688DA8F1EE69AC500EFB9DB /* MENewCommentTopView.swift in Sources */,
+				D6E65F571EE85BD500D94FCC /* IGLDropDownMenu.m in Sources */,
 				D688DA8A1EE68E2B00EFB9DB /* MENewCommentViewController.swift in Sources */,
+				D6E65F561EE85BD500D94FCC /* IGLDropDownItem.m in Sources */,
 				D688DA5F1EE67D3500EFB9DB /* MEBookConfig.swift in Sources */,
 				D61BC4491EE2A30300B2DB70 /* AppDelegate.swift in Sources */,
 				D688DA571EE67CC600EFB9DB /* MESearchViewController.swift in Sources */,
