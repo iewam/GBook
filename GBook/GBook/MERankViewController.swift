@@ -14,6 +14,8 @@ class MERankViewController: MEBaseViewController {
         super.viewDidLoad()
 
         
+        
+    
         let label = UILabel(frame: CGRect.zero)
         label.text = "学无止境"
         label.sizeToFit()
@@ -23,8 +25,17 @@ class MERankViewController: MEBaseViewController {
         
         view.addSubview(label)
         
+        let storyboard = UIStoryboard.init(name: "Login", bundle: nil)
+        let loginVC = storyboard.instantiateViewController(withIdentifier: "login")
+        
+        present(loginVC, animated: false) {
+            
+        }
+        
     }
 
 
+    
+    
     
 }

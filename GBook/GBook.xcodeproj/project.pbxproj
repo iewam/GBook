@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8AA46FB83DB9EAAF5CF9723C /* Pods_GBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAAF062D24CA6C153636F80 /* Pods_GBook.framework */; };
+		9A125932A5220B89D6838D56 /* Pods_GBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D988CEA23FCA72AE34056A65 /* Pods_GBook.framework */; };
 		D61BC4491EE2A30300B2DB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BC4481EE2A30300B2DB70 /* AppDelegate.swift */; };
 		D61BC4501EE2A30300B2DB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61BC44F1EE2A30300B2DB70 /* Assets.xcassets */; };
 		D61BC4531EE2A30300B2DB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61BC4511EE2A30300B2DB70 /* LaunchScreen.storyboard */; };
@@ -19,21 +19,6 @@
 		D688DA5B1EE67CD800EFB9DB /* MECircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA5A1EE67CD800EFB9DB /* MECircleViewController.swift */; };
 		D688DA5D1EE67CE000EFB9DB /* MEMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA5C1EE67CE000EFB9DB /* MEMoreViewController.swift */; };
 		D688DA5F1EE67D3500EFB9DB /* MEBookConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA5E1EE67D3500EFB9DB /* MEBookConfig.swift */; };
-		D688DA681EE6842400EFB9DB /* libaacplus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA631EE6842400EFB9DB /* libaacplus.a */; };
-		D688DA691EE6842400EFB9DB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA641EE6842400EFB9DB /* libcrypto.a */; };
-		D688DA6A1EE6842400EFB9DB /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA651EE6842400EFB9DB /* libevent.a */; };
-		D688DA6B1EE6842400EFB9DB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA661EE6842400EFB9DB /* libssl.a */; };
-		D688DA6C1EE6842400EFB9DB /* NIMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA671EE6842400EFB9DB /* NIMSDK.framework */; };
-		D688DA6E1EE6845700EFB9DB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA6D1EE6845700EFB9DB /* MobileCoreServices.framework */; };
-		D688DA701EE6846500EFB9DB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA6F1EE6846500EFB9DB /* SystemConfiguration.framework */; };
-		D688DA721EE6846E00EFB9DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA711EE6846E00EFB9DB /* AVFoundation.framework */; };
-		D688DA741EE6847700EFB9DB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA731EE6847700EFB9DB /* CoreTelephony.framework */; };
-		D688DA761EE6848000EFB9DB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA751EE6848000EFB9DB /* CoreMedia.framework */; };
-		D688DA781EE6848800EFB9DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA771EE6848800EFB9DB /* AudioToolbox.framework */; };
-		D688DA7A1EE6849100EFB9DB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA791EE6849100EFB9DB /* VideoToolbox.framework */; };
-		D688DA7C1EE6849F00EFB9DB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA7B1EE6849F00EFB9DB /* libc++.tbd */; };
-		D688DA7E1EE684AF00EFB9DB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA7D1EE684AF00EFB9DB /* libsqlite3.0.tbd */; };
-		D688DA801EE684B800EFB9DB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D688DA7F1EE684B800EFB9DB /* libz.tbd */; };
 		D688DA831EE6869F00EFB9DB /* MEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA821EE6869F00EFB9DB /* MEBaseViewController.swift */; };
 		D688DA8A1EE68E2B00EFB9DB /* MENewCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA891EE68E2B00EFB9DB /* MENewCommentViewController.swift */; };
 		D688DA8D1EE68EF400EFB9DB /* MEGeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D688DA8C1EE68EF400EFB9DB /* MEGeneralFactory.swift */; };
@@ -43,6 +28,9 @@
 		D688DAA01EE7F64B00EFB9DB /* btn_star_evaluation_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = D688DA9C1EE7F64B00EFB9DB /* btn_star_evaluation_normal.png */; };
 		D688DAA11EE7F64B00EFB9DB /* btn_star_evaluation_press.png in Resources */ = {isa = PBXBuildFile; fileRef = D688DA9D1EE7F64B00EFB9DB /* btn_star_evaluation_press.png */; };
 		D688DAA21EE7F64B00EFB9DB /* LDXScore.m in Sources */ = {isa = PBXBuildFile; fileRef = D688DA9F1EE7F64B00EFB9DB /* LDXScore.m */; };
+		D6B9E2581F2C217E00852393 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B9E2571F2C217E00852393 /* Login.storyboard */; };
+		D6B9E25A1F2C23EF00852393 /* MELoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9E2591F2C23EF00852393 /* MELoginViewController.swift */; };
+		D6B9E25C1F2C23F900852393 /* MERegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9E25B1F2C23F900852393 /* MERegisterViewController.swift */; };
 		D6E65F291EE8495F00D94FCC /* MESetSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E65F281EE8495F00D94FCC /* MESetSegmentViewController.swift */; };
 		D6E65F2B1EE849DC00D94FCC /* MEAddBookCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E65F2A1EE849DC00D94FCC /* MEAddBookCommentViewController.swift */; };
 		D6E65F401EE8504D00D94FCC /* AKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E65F2E1EE8504D00D94FCC /* AKSegmentedControl.m */; };
@@ -67,7 +55,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6BAAF062D24CA6C153636F80 /* Pods_GBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9070E083EFA286295945CD4C /* Pods-GBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-GBook/Pods-GBook.release.xcconfig"; sourceTree = "<group>"; };
 		99315D47C2CB31158EE19552 /* Pods-GBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBook/Pods-GBook.debug.xcconfig"; sourceTree = "<group>"; };
 		D61BC4451EE2A30300B2DB70 /* GBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,21 +71,6 @@
 		D688DA5A1EE67CD800EFB9DB /* MECircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MECircleViewController.swift; sourceTree = "<group>"; };
 		D688DA5C1EE67CE000EFB9DB /* MEMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEMoreViewController.swift; sourceTree = "<group>"; };
 		D688DA5E1EE67D3500EFB9DB /* MEBookConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MEBookConfig.swift; path = ../MEBookConfig.swift; sourceTree = "<group>"; };
-		D688DA631EE6842400EFB9DB /* libaacplus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libaacplus.a; sourceTree = "<group>"; };
-		D688DA641EE6842400EFB9DB /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		D688DA651EE6842400EFB9DB /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent.a; sourceTree = "<group>"; };
-		D688DA661EE6842400EFB9DB /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		D688DA671EE6842400EFB9DB /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIMSDK.framework; sourceTree = "<group>"; };
-		D688DA6D1EE6845700EFB9DB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		D688DA6F1EE6846500EFB9DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D688DA711EE6846E00EFB9DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		D688DA731EE6847700EFB9DB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		D688DA751EE6848000EFB9DB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		D688DA771EE6848800EFB9DB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		D688DA791EE6849100EFB9DB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		D688DA7B1EE6849F00EFB9DB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		D688DA7D1EE684AF00EFB9DB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		D688DA7F1EE684B800EFB9DB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D688DA821EE6869F00EFB9DB /* MEBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBaseViewController.swift; sourceTree = "<group>"; };
 		D688DA891EE68E2B00EFB9DB /* MENewCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MENewCommentViewController.swift; sourceTree = "<group>"; };
 		D688DA8C1EE68EF400EFB9DB /* MEGeneralFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEGeneralFactory.swift; sourceTree = "<group>"; };
@@ -111,6 +83,9 @@
 		D688DA9D1EE7F64B00EFB9DB /* btn_star_evaluation_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_star_evaluation_press.png; sourceTree = "<group>"; };
 		D688DA9E1EE7F64B00EFB9DB /* LDXScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDXScore.h; sourceTree = "<group>"; };
 		D688DA9F1EE7F64B00EFB9DB /* LDXScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDXScore.m; sourceTree = "<group>"; };
+		D6B9E2571F2C217E00852393 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D6B9E2591F2C23EF00852393 /* MELoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELoginViewController.swift; sourceTree = "<group>"; };
+		D6B9E25B1F2C23F900852393 /* MERegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MERegisterViewController.swift; sourceTree = "<group>"; };
 		D6E65F281EE8495F00D94FCC /* MESetSegmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MESetSegmentViewController.swift; sourceTree = "<group>"; };
 		D6E65F2A1EE849DC00D94FCC /* MEAddBookCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEAddBookCommentViewController.swift; sourceTree = "<group>"; };
 		D6E65F2D1EE8504D00D94FCC /* AKSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSegmentedControl.h; sourceTree = "<group>"; };
@@ -135,6 +110,7 @@
 		D6E65F531EE85BD500D94FCC /* IGLDropDownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownItem.m; sourceTree = "<group>"; };
 		D6E65F541EE85BD500D94FCC /* IGLDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownMenu.h; sourceTree = "<group>"; };
 		D6E65F551EE85BD500D94FCC /* IGLDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownMenu.m; sourceTree = "<group>"; };
+		D988CEA23FCA72AE34056A65 /* Pods_GBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,22 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D688DA801EE684B800EFB9DB /* libz.tbd in Frameworks */,
-				D688DA7E1EE684AF00EFB9DB /* libsqlite3.0.tbd in Frameworks */,
-				D688DA7C1EE6849F00EFB9DB /* libc++.tbd in Frameworks */,
-				D688DA7A1EE6849100EFB9DB /* VideoToolbox.framework in Frameworks */,
-				D688DA781EE6848800EFB9DB /* AudioToolbox.framework in Frameworks */,
-				D688DA761EE6848000EFB9DB /* CoreMedia.framework in Frameworks */,
-				D688DA741EE6847700EFB9DB /* CoreTelephony.framework in Frameworks */,
-				D688DA721EE6846E00EFB9DB /* AVFoundation.framework in Frameworks */,
-				D688DA701EE6846500EFB9DB /* SystemConfiguration.framework in Frameworks */,
-				D688DA6E1EE6845700EFB9DB /* MobileCoreServices.framework in Frameworks */,
-				D688DA6B1EE6842400EFB9DB /* libssl.a in Frameworks */,
-				D688DA691EE6842400EFB9DB /* libcrypto.a in Frameworks */,
-				D688DA681EE6842400EFB9DB /* libaacplus.a in Frameworks */,
-				D688DA6C1EE6842400EFB9DB /* NIMSDK.framework in Frameworks */,
-				D688DA6A1EE6842400EFB9DB /* libevent.a in Frameworks */,
-				8AA46FB83DB9EAAF5CF9723C /* Pods_GBook.framework in Frameworks */,
+				9A125932A5220B89D6838D56 /* Pods_GBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +157,7 @@
 		D61BC4471EE2A30300B2DB70 /* GBook */ = {
 			isa = PBXGroup;
 			children = (
+				D6B9E2561F2C214A00852393 /* Login */,
 				D688DA8B1EE68ECC00EFB9DB /* GeneralFactory */,
 				D688DA811EE6868900EFB9DB /* Base */,
 				D688DA531EE67C9500EFB9DB /* More */,
@@ -283,40 +245,9 @@
 		D688DA601EE6840900EFB9DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D688DA7F1EE684B800EFB9DB /* libz.tbd */,
-				D688DA7D1EE684AF00EFB9DB /* libsqlite3.0.tbd */,
-				D688DA7B1EE6849F00EFB9DB /* libc++.tbd */,
-				D688DA791EE6849100EFB9DB /* VideoToolbox.framework */,
-				D688DA771EE6848800EFB9DB /* AudioToolbox.framework */,
-				D688DA751EE6848000EFB9DB /* CoreMedia.framework */,
-				D688DA731EE6847700EFB9DB /* CoreTelephony.framework */,
-				D688DA711EE6846E00EFB9DB /* AVFoundation.framework */,
-				D688DA6F1EE6846500EFB9DB /* SystemConfiguration.framework */,
-				D688DA6D1EE6845700EFB9DB /* MobileCoreServices.framework */,
-				D688DA611EE6842400EFB9DB /* NIMSDK */,
-				6BAAF062D24CA6C153636F80 /* Pods_GBook.framework */,
+				D988CEA23FCA72AE34056A65 /* Pods_GBook.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D688DA611EE6842400EFB9DB /* NIMSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D688DA621EE6842400EFB9DB /* Libs */,
-				D688DA671EE6842400EFB9DB /* NIMSDK.framework */,
-			);
-			path = NIMSDK;
-			sourceTree = "<group>";
-		};
-		D688DA621EE6842400EFB9DB /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				D688DA631EE6842400EFB9DB /* libaacplus.a */,
-				D688DA641EE6842400EFB9DB /* libcrypto.a */,
-				D688DA651EE6842400EFB9DB /* libevent.a */,
-				D688DA661EE6842400EFB9DB /* libssl.a */,
-			);
-			path = Libs;
 			sourceTree = "<group>";
 		};
 		D688DA811EE6868900EFB9DB /* Base */ = {
@@ -384,6 +315,16 @@
 				D688DA9F1EE7F64B00EFB9DB /* LDXScore.m */,
 			);
 			path = LDXScore;
+			sourceTree = "<group>";
+		};
+		D6B9E2561F2C214A00852393 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D6B9E2591F2C23EF00852393 /* MELoginViewController.swift */,
+				D6B9E25B1F2C23F900852393 /* MERegisterViewController.swift */,
+				D6B9E2571F2C217E00852393 /* Login.storyboard */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 		D6E65F2C1EE8504D00D94FCC /* AKSegmentedControl */ = {
@@ -459,7 +400,7 @@
 		D61BC43D1EE2A30300B2DB70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = ME;
+				CLASSPREFIX = ST;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "马伟";
@@ -504,6 +445,7 @@
 				D6E65F501EE8504D00D94FCC /* star-icon@2x.png in Resources */,
 				D6E65F4E1EE8504D00D94FCC /* social-icon@2x.png in Resources */,
 				D6E65F491EE8504D00D94FCC /* segmented-separator.png in Resources */,
+				D6B9E2581F2C217E00852393 /* Login.storyboard in Resources */,
 				D6E65F411EE8504D00D94FCC /* segmented-bg-pressed-center.png in Resources */,
 				D688DAA11EE7F64B00EFB9DB /* btn_star_evaluation_press.png in Resources */,
 				D6E65F481EE8504D00D94FCC /* segmented-bg@2x.png in Resources */,
@@ -588,9 +530,11 @@
 				D6E65F571EE85BD500D94FCC /* IGLDropDownMenu.m in Sources */,
 				D688DA8A1EE68E2B00EFB9DB /* MENewCommentViewController.swift in Sources */,
 				D6E65F561EE85BD500D94FCC /* IGLDropDownItem.m in Sources */,
+				D6B9E25A1F2C23EF00852393 /* MELoginViewController.swift in Sources */,
 				D688DA5F1EE67D3500EFB9DB /* MEBookConfig.swift in Sources */,
 				D61BC4491EE2A30300B2DB70 /* AppDelegate.swift in Sources */,
 				D688DA571EE67CC600EFB9DB /* MESearchViewController.swift in Sources */,
+				D6B9E25C1F2C23F900852393 /* MERegisterViewController.swift in Sources */,
 				D688DA551EE67CB800EFB9DB /* MERankViewController.swift in Sources */,
 				D6E65F401EE8504D00D94FCC /* AKSegmentedControl.m in Sources */,
 			);

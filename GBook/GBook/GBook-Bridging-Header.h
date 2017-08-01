@@ -1,7 +1,7 @@
 
 
 // leanCloud
-#import <NIMSDK/NIMSDK.h>
+#import <AVOSCloud/AVCloud.h>
 
 #import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
 

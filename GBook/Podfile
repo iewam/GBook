@@ -9,5 +9,7 @@ target 'GBook' do
 
 pod 'SnapKit'
 pod 'JVFloatLabeledTextField'
+pod 'AVOSCloud'
+pod 'AVOSCloudIM'
 
 end

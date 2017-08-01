@@ -1,15 +1,29 @@
 PODS:
+  - AVOSCloud (4.2.0)
+  - AVOSCloudIM (4.2.0):
+    - AVOSCloud (= 4.2.0)
+    - AVOSCloudIM/_ARC (= 4.2.0)
+    - AVOSCloudIM/_NOARC (= 4.2.0)
+  - AVOSCloudIM/_ARC (4.2.0):
+    - AVOSCloud (= 4.2.0)
+    - AVOSCloudIM/_NOARC (= 4.2.0)
+  - AVOSCloudIM/_NOARC (4.2.0):
+    - AVOSCloud (= 4.2.0)
   - JVFloatLabeledTextField (1.1.1)
   - SnapKit (3.2.0)
 
 DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudIM
   - JVFloatLabeledTextField
   - SnapKit
 
 SPEC CHECKSUMS:
+  AVOSCloud: 5446ad0320f4942cce1a036d131992cd1115db99
+  AVOSCloudIM: 69df8e8517247f3c2585e321f24e777d5b398843
   JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 9acf6105d23bea29024897d8f01310bf9caf75c9
+PODFILE CHECKSUM: fd609b539a5fa1a1cab515f0029bd77206ed326e
 
 COCOAPODS: 1.2.0

@@ -100,7 +100,7 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
             cell.detailTextLabel?.text = commentTitle
             break
             
-        case "":
+        case "":// 空字符串
             if self.showScore {
                 cell.contentView.addSubview(self.score)
                 cell.accessoryType = .none
@@ -111,7 +111,7 @@ extension MENewCommentViewController: UITableViewDelegate, UITableViewDataSource
             cell.detailTextLabel?.text = self.segmentDetailText
             break
             
-        case " ":
+        case " ":// 空格
             cell.accessoryType = .none
             let commentView = UITextView(frame: CGRect(x: 4, y: 4, width: SCREEN_WIDTH - 8, height: 80))
             commentView.text = self.bookCommentText
